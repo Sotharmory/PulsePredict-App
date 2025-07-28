@@ -1,30 +1,31 @@
+Tổng Quan
 
-Overview
-PulsePredict App is a comprehensive application designed to assist healthcare professionals and individuals in predicting the likelihood of heart disease using various data inputs. The app integrates multiple functionalities, including predictive analytics, text extraction from images, and a chat bot for interactive assistance.
+PulsePredict là một ứng dụng toàn diện được thiết kế nhằm hỗ trợ các chuyên gia y tế và người dùng cá nhân trong việc dự đoán nguy cơ mắc bệnh tim mạch dựa trên nhiều thông số sức khỏe. Ứng dụng tích hợp các chức năng hiện đại như phân tích dự đoán, trích xuất văn bản từ hình ảnh và trợ lý ảo trò chuyện thông minh, mang đến trải nghiệm chăm sóc sức khỏe chủ động và tiện lợi.
 
-Key Features
-PulsePredict
+Tính Năng Nổi Bật
 
-The core functionality of the app is its predictive model for heart disease. Users can input various health parameters such as age, sex, blood pressure, cholesterol levels, and more. The model processes these inputs to predict the risk of heart disease. This feature is useful for initial screenings and assessments, helping users and healthcare providers make informed decisions.
+1. Dự Đoán Nguy Cơ Bệnh Tim – PulsePredict
+Chức năng cốt lõi của ứng dụng là mô hình dự đoán nguy cơ bệnh tim. Người dùng có thể nhập các chỉ số sức khỏe như: tuổi tác, giới tính, huyết áp, nồng độ cholesterol… Hệ thống sẽ xử lý và đưa ra đánh giá nguy cơ mắc bệnh tim mạch. Tính năng này đặc biệt hữu ích cho việc sàng lọc ban đầu, hỗ trợ người dùng và bác sĩ ra quyết định kịp thời và chính xác.
 
-Text Extraction from Images
+2. Trích Xuất Văn Bản Từ Hình Ảnh
+Ứng dụng tích hợp công nghệ nhận diện ký tự quang học (OCR) cho phép trích xuất văn bản từ hình ảnh, bao gồm tài liệu viết tay, đơn thuốc, báo cáo y tế… Người dùng chỉ cần tải lên ảnh tài liệu, hệ thống sẽ tự động số hóa nội dung văn bản, hỗ trợ lưu trữ và phân tích dễ dàng hơn.
 
-The app includes a text extraction feature that uses Optical Character Recognition (OCR) to extract and recognize text from images. This is particularly useful for digitizing handwritten or printed medical documents, reports, and forms. Users can upload images through the app, and the text will be extracted and made available for further use or analysis.
+3. Trợ Lý Trò Chuyện Ảo – Chat Bot
+PulsePredict trang bị trợ lý ảo tích hợp chat bot thông minh để tăng cường tương tác và hỗ trợ người dùng. Chat bot có khả năng trả lời các câu hỏi liên quan đến bệnh tim, hướng dẫn sử dụng ứng dụng và cung cấp thông tin y tế cơ bản. Nhờ công nghệ xử lý ngôn ngữ tự nhiên (NLP), chat bot giúp người dùng tiếp cận thông tin một cách nhanh chóng và thân thiện.
 
-Chat Bot Integration
+Công Nghệ Sử Dụng
 
-To enhance user experience and provide real-time support, the app features a chat bot. The chat bot can answer user queries, provide information about heart disease, and assist with using the app’s various features. It utilizes natural language processing to engage in meaningful conversations and offer relevant responses.
+Học máy (Machine Learning): Mô hình PulsePredict áp dụng thuật toán học máy để phân tích dữ liệu và đưa ra dự đoán chính xác.
+OCR (Nhận diện ký tự quang học): Giúp chuyển đổi văn bản trong hình ảnh thành dữ liệu số có thể xử lý.
+Socket.io: Cung cấp khả năng tương tác thời gian thực cho chat bot và các tính năng tương tác khác.
+Flutter: Nền tảng phát triển giao diện ứng dụng di động, mang đến trải nghiệm mượt mà, hiện đại và đa nền tảng.
+Trường Hợp Sử Dụng
 
-Technologies Used
-Machine Learning: The PulsePredict model is built using machine learning algorithms to analyze input data and generate predictions.
-Optical Character Recognition (OCR): For text extraction from images, the app leverages OCR technology to convert visual text into machine-readable format.
-Socket.io: For real-time communication, the app uses Socket.io to facilitate chat bot interactions.
-Flutter: The mobile app interface is developed using Flutter, providing a smooth and responsive user experience.
-Use Cases
-Healthcare Providers: Can use the app to quickly assess patients' risk of heart disease based on their health data.
-Individuals: Can input their health parameters to get an initial risk assessment and use the chat bot for general health advice.
-Document Management: Easily digitize and manage medical documents through text extraction from images.
-Benefits
-Accuracy: Provides accurate predictions and assessments based on extensive data analysis.
-Convenience: Offers an easy-to-use interface for both predictive analytics and text extraction.
-Support: Enhances user engagement and support through an interactive chat bot.
+Chuyên gia y tế: Nhanh chóng đánh giá nguy cơ bệnh tim của bệnh nhân qua các chỉ số đầu vào.
+Người dùng cá nhân: Tự đánh giá mức độ rủi ro về sức khỏe tim mạch và nhận tư vấn sơ bộ thông qua chat bot.
+Quản lý tài liệu y tế: Số hóa, lưu trữ và tra cứu các tài liệu y tế một cách hiệu quả bằng tính năng trích xuất văn bản.
+Lợi Ích
+
+Độ chính xác cao: Cung cấp dự đoán đáng tin cậy dựa trên phân tích dữ liệu toàn diện.
+Tiện lợi và dễ sử dụng: Giao diện thân thiện, dễ thao tác ngay cả với người không chuyên.
+Hỗ trợ tận tâm: Tăng cường tương tác và hỗ trợ người dùng thông qua trợ lý ảo thông minh.
